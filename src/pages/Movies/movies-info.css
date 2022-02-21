@@ -1,0 +1,64 @@
+.movie-info{
+    display:flex;
+    flex-direction:column;
+    max-width: 900px;
+    
+    
+}
+
+.movie-info img{
+    border-radius: 20px;
+    background-color:rgb(47, 48, 47);
+    color:rgb(235, 137, 193);
+    
+    
+    
+}
+
+.movies-info button{
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:0;
+    font-size:20px;
+    outline:none;
+    padding:15px;
+    transition: all 0.5s;
+    background-color:rgb(47, 48, 47);
+    color:rgb(235, 137, 193);
+    
+    
+}
+
+.movies-info button:hover{
+    background-color: white;
+    color:rgb(235, 137, 193);
+
+    
+}
+
+.movies-info a{
+    text-decoration:none;
+    color:rgb(235, 137, 193);
+    transition: all 0.3s;
+
+}
+
+.movies-info a:hover{
+    color:rgb(235, 137, 193);
+    transition: all 0.3s;
+
+}
+
+.movies-info article {
+    font-size:30px;
+    right: 0px;
+    width: 400px;
+    padding: 10px;
+    
+}
+
+.movies-info h1{
+    text-shadow: 2px 2px 5px rgb(187, 37, 87);
+}
